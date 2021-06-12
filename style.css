@@ -1,0 +1,57 @@
+/*Selector universal*/
+/*Este selector selecciona TODO dentro del archivo CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-style: toggle(italic, normal);
+}
+/*Selector de etiqueta*/
+/*Aplica solo a la(s) etiqueta(s) descrita(s)*/
+p {
+    color: red;
+    font-weight: bold;
+}
+/*Selector ID*/
+/*Solo aplica al ID que se indicó en el HTML*/
+#submit-button {
+    background-color: rgb(10, 201, 10);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px 0;
+}
+/*Selector Clase*/
+/*Aplica a uno o más elementos que tengan esta clase en el HTML*/
+.box {
+    border: 2px solid red;
+    margin: 0 5px;
+    padding: 5px;
+    text-align: center;
+}
+/*Selector Anidado*/
+/*Solo aplica para elementos que estén dentro de otros*/
+p span {
+    color: green;
+}
+/*Selector Hijo >*/
+/*Solo aplica a los hijos directos de un elemento*/
+div > h2 {
+    color: blue;
+}
+/*Selector adyacente*/
+/* Aplícale  esta regla de CSS a todas las etiquetas de párrafo
+que estén cerca de una etiqueta h2, solo funciona si la etiqueta
+p está a continuación (esto es el adjacent sibling)*/
+h2 + p {
+    color:purple;
+}
+/*Selector de atributo*/
+/*Este selector toma los elementos que tienen un determinado
+texto en uno de sus atributos*/
+a[target="_blank"] {
+    background-color: yellow;
+}
