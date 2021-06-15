@@ -1,5 +1,0 @@
-commit 3fbe78ac4eb75c59ad157c5e192b636560299390
-Author: Aldo Ortiz <74159611+ArudoPE@users.noreply.github.com>
-Date:   Thu Jun 10 22:05:58 2021 -0500
-
-    Create README.md
